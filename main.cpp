@@ -1,20 +1,4 @@
 
-/*
-----------------------------------------------------------------------------
-               Project title   : Jarvis (personal assistant)
-               Made By         : Vinay Hajare
-               Written in      : C++
-               Started project : 1 April , 2021
-               Platform        : Windows
-               IDE used        : Code blocks
-               Last Modified   : 1 April , 2021
-               Total Code      : 700+ Lines
- ----------------------------------------------------------------------------
-*/
-
-
-//-------------------main.c++--------------------
-
 #include<iostream>
 #include<stdlib.h>
 #include<fstream>
@@ -99,7 +83,7 @@ void check()
        }
         else if (input=="thanks buddy")
        {
-         x.typing("You are Welcome  sir , don't say thanks it's my job");
+         x.typing("You are Welcome  mam , don't say thanks it's my job");
        }
      }
     else if (m_word=="play")
@@ -174,13 +158,13 @@ void check()
               x.typing("I am Jarvis, a personal assistant");
               Sleep(300);
               line();
-              x.typing("Vinay Hajare has made me.");
+              x.typing("Srishti Majumder has made me.");
               Sleep(300);
               line();
               x.typing("I was created on 1 April ,2021");
               Sleep(300);
               line();
-              x.typing("and he's making me better day by day");
+              x.typing("and she's making me better day by day");
               Sleep(300);
           }
           else
